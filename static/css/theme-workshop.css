@@ -226,3 +226,27 @@ div.notices.info p {
   border-top: 30px solid #fd9827;
   background: #fff2db;
 }
+
+.profile-avatar {
+  width: min(280px, 100%);
+  margin: 1.25rem auto 1.75rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.profile-avatar img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile-avatar figcaption {
+  margin-top: 6px;
+  color: #5f6b7a;
+  font-size: 0.74rem;
+  line-height: 1.2;
+  text-align: center;
+}

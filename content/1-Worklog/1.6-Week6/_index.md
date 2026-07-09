@@ -5,53 +5,33 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+The sixth week of the internship transitioned toward containerization technologies and modern microservices deployment workflows. The core content included learning Docker fundamentals, authoring Dockerfiles, building optimized application container images, and deploying them onto AWS cloud environments. Additionally, hands-on tasks were performed to configure and utilize the AWS Command Line Interface (AWS CLI) to manage cloud infrastructure directly via the terminal.
 
 ### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master containerization fundamentals and understand the architectural differences between virtual machines and containers.
+* Learn how to write efficient Dockerfiles and build standardized application images.
+* Deploy containerized application modules into AWS infrastructure.
+* Install and configure the AWS CLI to streamline resource administration tasks locally.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| Fri | - Research containerization concepts, advantages, and Docker architecture features.<br>- Install the Docker Engine environment on the local development workstation.<br>+ Document core Docker commands for container management. | 24/05/2026 | 24/05/2026 | Project source code, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
+| Sat | - Learn how to compose functional Dockerfiles for application runtime components.<br>- Study layers optimization and multi-stage build techniques.<br>+ Write a trial Dockerfile configuration script. | 25/05/2026 | 25/05/2026 | Project source code, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
+| Sun | - Practice building custom Docker Images from the prepared dockerfiles.<br>- Learn about image tagging conventions, inspection logs, and container run flags.<br>+ Launch a local instance container to verify backend configurations. | 26/05/2026 | 26/05/2026 | Project source code, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Research deployment patterns for running Docker containers on AWS cloud infrastructure.<br>- Learn the basic mechanisms of container registry management.<br>+ Map out necessary infrastructure nodes for runtime environment setup. | 27/05/2026 | 27/05/2026 | Project source code, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Execute target containerized deployments on the designated AWS compute platform.<br>- Verify application health status, networking access ports, and storage points.<br>+ Document container execution logs and operational milestones. | 28/05/2026 | 28/05/2026 | AWS Management Console, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Download and install the AWS Command Line Interface (AWS CLI) package on the system.<br>- Learn how to securely execute authentication settings using IAM Access Keys.<br>+ Practice executing terminal-based queries to test cloud environment control. | 29/05/2026 | 29/05/2026 | AWS Management Console, Terminal, <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - Complete all required containerization tasks and AWS CLI setup sequences.<br>- Consolidate configuration scripts, troubleshoot command path bugs, and review setups.<br>+ Finalize the log documentation and organize deployment roadmaps for the next week. | 30/05/2026 | 31/05/2026 | AWS Management Console, Team discussion, <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 6 Achievements:
+* Gained comprehensive practical skills in application containerization workflows using Docker.
+* Successfully authored optimized Dockerfiles and compiled working application images.
+* Deployed containerized microservices onto AWS infrastructure and validated operational parameters.
+* Proficiently established and configured the AWS CLI environment to enable remote workspace management.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Plan for the Next Week:
+* Transition into core system implementation phases by deploying crucial CRUD APIs that support backend administration screens.
+* Implement asset filtering logic categorized by specific parameters such as departments, statuses, keywords, and personnel.
+* Deep-dive into advanced AWS networking structures and communication services.

@@ -1,31 +1,40 @@
 ---
-title: "Blog 2"
+title: "Amazon EKS Auto Mode và Istio Ambient Mesh Integration"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+Trong quá trình tìm hiểu về Kubernetes, mình thấy bài viết của AWS giới thiệu cách kết hợp Amazon EKS Auto Mode và Istio Ambient Mesh. Hai công nghệ này giúp giảm đáng kể operational overhead, đồng thời tăng cường bảo mật service-to-service một cách tự động.
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Khi hệ thống microservices phát triển từ vài service lên hàng trăm service, hai vấn đề lớn thường xuất hiện: quản lý infrastructure như node provisioning, patching, scaling và bảo mật giao tiếp giữa các service. EKS Auto Mode kết hợp Istio Ambient Mesh là một hướng tiếp cận "Better Together" để giải quyết cả hai vấn đề này.
 
-Các điểm chính cần nắm:
+### 1. Amazon EKS Auto Mode
+Đây là chế độ tự động hóa mạnh của EKS, giúp AWS quản lý gần như toàn bộ compute layer:
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+* **Tự động provisioning và scaling node:** Karpenter quản lý provisioning, scaling và patching node tự động.
+* **Bottlerocket OS:** Sử dụng Bottlerocket, hệ điều hành minimal, immutable và có tính bảo mật cao.
+* **Managed System Components:** VPC CNI, kube-proxy, EBS CSI, CoreDNS, Load Balancer Controller và các thành phần hệ thống khác được AWS quản lý trực tiếp.
+* **Giảm bề mặt tấn công:** Loại bỏ nhu cầu SSH vào node, từ đó giảm rủi ro bảo mật.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+### 2. Istio Ambient Mesh
+Đây là kiến trúc sidecarless của Istio, giúp áp dụng service mesh mà không cần inject sidecar proxy vào từng pod:
 
-...Hình ảnh...
+* **ztunnel:** Xử lý traffic Layer 3/4, bao gồm mTLS, L4 authorization và TCP telemetry.
+* **Istio CNI:** Redirect traffic qua ztunnel.
+* **Waypoint Proxy:** Xử lý các tính năng Layer 7 như HTTP routing, retries, L7 authorization và circuit breaking khi cần.
 
-...Link...
+![Amazon EKS Auto Mode và Istio Ambient Mesh](/images/3-BlogsPosted/eks_auto_mode_istio_ambient.png)
 
-...Hướng dẫn...
+### Kết luận:
+Sự kết hợp giữa Amazon EKS Auto Mode và Istio Ambient Mesh mang lại một môi trường Kubernetes hiện đại: tự động hóa mạnh ở tầng compute và bảo mật linh hoạt ở tầng service mesh mà không làm phức tạp hóa ứng dụng. Đây là hướng đi rất đáng cân nhắc cho các team đang xây dựng nền tảng microservices trên AWS.
+
+---
+**Nguồn tham khảo:**
+* AWS Blog Post: <https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/>
+
+**Minh chứng đã đăng:**
+* Đường dẫn bài viết Facebook: <https://www.facebook.com/groups/awsstudygroupfcj/permalink/2193364788095148/>
+
+![Minh chứng đã đăng](/images/3-BlogsPosted/blog2_facebook_post.png)

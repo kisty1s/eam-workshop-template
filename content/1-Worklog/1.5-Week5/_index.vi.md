@@ -5,55 +5,33 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần thực tập thứ năm chuyển trọng tâm sang kiến trúc hạ tầng có tính khả dụng cao, phân phối tải và tối ưu hóa hiệu suất hệ thống trên AWS. Nội dung cốt lõi bao gồm thực hiện nghiên cứu toàn diện và cấu hình thực tế về Elastic Load Balancing (ELB) và Auto Scaling Groups (ASG). Ngoài ra, các thử nghiệm triển khai hệ thống và đánh giá áp lực hiệu suất cũng được thực hiện để phân tích khả năng phục hồi cấu trúc dưới các mô phỏng lưu lượng truy cập cao.
 
 ### Mục tiêu tuần 5:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nghiên cứu sâu về vận hành và kiến trúc của các thành phần có tính khả dụng cao trên AWS.
+* Thực hành cấu hình Elastic Load Balancing (ELB) để phân phối lưu lượng truy cập ứng dụng đầu vào trên nhiều instance.
+* Thiết lập Auto Scaling Groups (ASG) để tự động điều chỉnh năng lực tính toán dựa trên tải hệ thống.
+* Thực hiện kiểm tra triển khai thực tế và đánh giá hiệu suất mở rộng quy mô hệ thống tổng thể.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| Sáu | - Nghiên cứu các khái niệm về tính khả dụng cao (high availability), khả năng chống chịu lỗi (fault tolerance) và cân bằng tải (load balancing) trên AWS.<br>- Tìm hiểu về các loại Elastic Load Balancer (ALB, NLB, GLB).<br>+ Tài liệu hóa các tiêu chuẩn cơ bản để lựa chọn bộ cân bằng tải phù hợp. | 18/05/2026 | 18/05/2026 | Mã nguồn dự án, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
+| Bảy | - Tìm hiểu cách cấu hình Application Load Balancer (ALB) thông qua AWS Console.<br>- Nghiên cứu cấu hình target group, health check và quy tắc định tuyến.<br>+ Phác thảo các instance đích cho thiết lập phân phối tải. | 19/05/2026 | 19/05/2026 | AWS Management Console, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
+| CN | - Nghiên cứu cơ chế hoạt động của AWS Auto Scaling và Launch Template.<br>- Tìm hiểu về mở rộng quy mô theo chiều ngang (horizontal) so với chiều dọc (vertical) và các chính sách mở rộng động.<br>+ Xác định các quy tắc ngưỡng (CPU, bộ nhớ) cho các hành động scale-out và scale-in. | 20/05/2026 | 20/05/2026 | Mã nguồn dự án, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
+| Hai | - Thực hành cấu hình Launch Template với các Amazon Machine Image (AMI) được chỉ định.<br>- Thiết lập Auto Scaling Group (ASG) tích hợp với ALB đã tạo trước đó.<br>+ Xác minh các ràng buộc số lượng instance ban đầu tối thiểu, mong muốn và tối đa. | 21/05/2026 | 21/05/2026 | AWS Management Console, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
+| Ba | - Thực hiện triển khai thử nghiệm ứng dụng web trong cơ sở hạ tầng tự động mở rộng.<br>- Giám sát trạng thái đăng ký instance và các chỉ số sức khỏe (health) thông qua bảng điều khiển ALB.<br>+ Ghi lại các hành vi tài nguyên cơ bản trong các hoạt động tiêu chuẩn. | 22/05/2026 | 22/05/2026 | AWS Management Console, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
+| Tư | - Thực hiện kiểm tra áp lực hiệu suất hệ thống bằng cách sử dụng các công cụ benchmark để mô phỏng sự gia tăng đột biến của lưu lượng truy cập.<br>- Phân tích cách Auto Scaling Group phản ứng với tải cao và kích hoạt khởi chạy các instance mới.<br>+ Đánh giá độ trễ mở rộng và tính toàn vẹn dữ liệu trong quá trình mở rộng tài nguyên. | 23/05/2026 | 23/05/2026 | AWS Management Console, Terminal, <https://cloudjourney.awsstudygroup.com/> |
+| Năm | - Tổng hợp các chỉ số thử nghiệm, biểu đồ hiệu suất và nhật ký xác minh cân bằng tải.<br>- Tài liệu hóa các bước tối ưu hóa đã thực hiện và giải quyết các bất thường về cấu hình trong chính sách mở rộng.<br>+ Hoàn thiện báo cáo tiến độ hàng tuần và chuẩn bị mục tiêu tích hợp cho giai đoạn tiếp theo. | 24/05/2026 | 24/05/2026 | AWS Management Console, Thảo luận nhóm, <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 5:
+* Có được sự hiểu biết vững chắc về các thiết kế đám mây có tính khả dụng cao, các phương pháp chống chịu lỗi và các quy tắc phân phối lưu lượng truy cập.
+* Cấu hình thành công Application Load Balancer (ALB) với các target group tự động và kiểm tra sức khỏe nghiêm ngặt.
+* Thiết lập thành thạo các Auto Scaling Group (ASG) sử dụng các launch template động để tự động hóa việc mở rộng quy mô instance.
+* Hoàn thành thành công các thử nghiệm mô phỏng tải, xác minh khả năng tự phục hồi và tự động mở rộng của môi trường dưới tải cao.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch cho tuần tiếp theo:
+* Chuyển trọng tâm sang các công nghệ container hóa bằng cách đi sâu vào các kiến thức cơ bản về Docker.
+* Thực hành viết Dockerfile, xây dựng container image và triển khai các ứng dụng container hóa trên AWS.
+* Tìm hiểu về cấu hình AWS CLI (Command Line Interface) để quản lý cơ sở hạ tầng đám mây từ môi trường local.

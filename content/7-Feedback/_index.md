@@ -6,42 +6,30 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+Here, you can freely share personal feedback about your experience participating in the First Cloud AI Journey program, helping the FCAJ team improve remaining gaps based on the following areas:
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+## Overall Evaluation
 
-### Overall Evaluation
+### 1. Working Environment
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The working environment at FCAJ strongly reflects an open, friendly, and highly professional culture. Team members are always willing to support me and help remove technical blockers at any time, even outside official working hours. The workspace is arranged in a scientific and minimal way, helping me maintain strong focus and an energetic "Day 1" mindset. However, I think the team could add a few short sharing sessions or team bonding activities to connect members more closely and optimize collaboration efficiency.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+### 2. Support from the Admin Team / Senior Members
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+Although the program does not include one-on-one mentoring, I highly value being given ownership to proactively research and solve problems instead of passively waiting for answers. When I face major difficulties, the admin team and senior members are always willing to explain the nature of the process in depth, provide documents quickly, and create the best possible conditions for me to adapt and accelerate my work independently.
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+### 3. Relevance Between Work and Academic Major
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The projects assigned to me are fully aligned with the academic foundation I learned at university, while also expanding into deeper Cloud and AI technology areas that I had never encountered in textbooks. Thanks to this "learning by doing" mindset, I was able to strengthen core theory while gaining practical experience in solving real business problems.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+### 4. Learning and Skill Development Opportunities
 
----
+This internship comprehensively upgraded my skillset and self-learning ability. I learned how to master modern project management tools, develop data-driven teamwork thinking, and build a professional communication style suitable for an enterprise environment. The practical experience gained while independently operating my work also became valuable lessons that helped me define a clearer future career path.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### 5. Culture and Team Spirit
 
----
+The company culture focuses on maximum respect for each individual: everyone listens to one another, works with high efficiency, and still maintains connection and positivity. During urgent project phases, team spirit is shown most clearly when all members share responsibilities and support one another regardless of role or level. This gives me a strong sense of belonging, and it makes me feel that the effort of an intern is properly recognized.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### 6. Policies / Benefits for Interns
+
+Although the core goal of the program focuses on training, orientation, and skill development, I still highly appreciate the practical long-term value it provides. In-depth workshops, learning materials, and dedicated support from the admin team are extremely valuable resources for my self-learning process. For a student, being directly immersed in a real working environment and becoming familiar with an advanced technology ecosystem widely used in the market is a major privilege. These values not only help me improve my professional capability, but also serve as a strong launchpad for defining my career path and preparing better before officially entering a professional workplace.

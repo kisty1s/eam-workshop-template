@@ -1,126 +1,106 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Event 1: AWS First Cloud Journey Community Day"
+date: 2026-06-06
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+| Information | Details |
+| --- | --- |
+| Date | June 6, 2026 |
+| Location | 26th Floor, Bitexco Financial Tower |
+| Participation format | On-site participation |
+| Role | Attendee |
+| Main topics | Cloud Computing, DevOps, Security, AI, WebSocket, Teamwork, and career orientation in information technology |
+| Speakers | Tran Trung Vinh - System Administrator at Central Retail Group;<br>Bao Huynh - Junior Cloud Native Developer, Endava Vietnam;<br>Le Hoang Gia Dai, Nguyen Quoc Bao, Truong Huy Phuoc, Viet Phat |
 
-### Event Objectives
+## 1. Purpose of participating in the event
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The AWS First Cloud Journey Community Day served as a high-value professional seminar designed to help students and cloud engineering beginners bridge the gap between academic theory and practical industry insights. By gathering experts currently operating in the enterprise tech sector, the event provided participants with a comprehensive understanding of how modern technologies—such as AWS, Docker, Machine Learning, WebSocket, GraphRAG, and DevOps workflows—are integrated and deployed in real-world production environments.
 
-### Speakers
+My primary objectives for attending the event included:
+*   **Expanding Knowledge Beyond the Classroom:** Moving past fundamental theoretical concepts to deeply understand advanced application deployment, system security compliance, and real-time cloud architectures.
+*   **Observing Industry Best Practices:** Learning directly from how seasoned IT professionals break down complex technical problems, propose enterprise-grade solutions, and share production-level post-mortems.
+*   **Career Roadmap Development:** Gaining critical insights into career progression within the Cloud and DevOps domains to align my current competencies with corporate expectations.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+## 2. Main content of the event
 
-### Key Highlights
+The community day comprised a series of diverse, specialized sharing sessions. While each presentation targeted a unique sub-discipline of technology, they collectively unified around a singular goal: building comprehensive, multi-layered technical capabilities for modern AWS practitioners.
 
-#### Identifying the drawbacks of legacy application architecture
+### 2.1. Docker - A Containerization Technology
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+This session introduced the core concepts of containerization technology and emphasized the irreplaceable role of Docker within contemporary software development, testing, and deployment life cycles. The speaker provided a comparative analysis between traditional Virtualization and Containerization, highlighting why containers are significantly lighter, more resource-efficient, and inherently more scalable for modern cloud-native infrastructures.
 
-#### Transitioning to modern application architecture – Microservices
+*   **Key Insight:** Docker is far more than a tool for running isolated applications; it is the backbone of continuous integration and continuous delivery (CI/CD) pipelines in modern DevOps workflows. By packaging source code, system libraries, configurations, and runtime dependencies into unified containers, engineering teams can eliminate the notorious "it works on my machine" discrepancy between local environments, staging servers, and production.
+*   **AWS Alignment:** Mastery of Docker serves as a prerequisite foundation for working with advanced orchestration services on AWS, such as Amazon ECS (Elastic Container Service) and Amazon EKS (Elastic Kubernetes Service).
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+### 2.2. Machine Learning-based Network Intrusion Detection System (NIDS) on AWS
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+Centered around modern cyber security paradigms, this session deep-dived into securing web applications against evolving threat landscapes using AWS WAF (Web Application Firewall) coupled with artificial intelligence. The speaker demonstrated how AWS WAF acts as an edge defense layer to mitigate standard OWASP Top 10 vulnerabilities, including SQL Injection, Cross-Site Scripting (XSS), automated botnets, and brute-force attacks.
 
-#### Domain-Driven Design (DDD)
+*   **Key Insight:** Traditional static rule-based firewalls, while effective against predefined, historical threat signatures, inherently struggle to mitigate novel zero-day attacks or polymorphic anomalous activities. To overcome these limitations, the session proposed integrating AWS WAF with Machine Learning models to construct a robust Network Intrusion Detection System (NIDS) capable of continuously learning from active network telemetry to identify behavioral anomalies.
+*   **Security Shift:** Cloud security is transitioning rapidly from traditional signature-based static defenses toward dynamic, predictive behavior-based automated response models.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### 2.3. From IT Helpdesk to Senior Sysadmin
 
-#### Event-Driven Architecture
+This career orientation session provided highly relatable, actionable guidance based on the speaker’s personal journey from entry-level technical support (IT Helpdesk) to managing complex enterprise infrastructures as a Senior System Administrator.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+*   **Key Insight:** Progressing into high-level infrastructure roles demands an unyielding stability-oriented mindset, advanced troubleshooting methodologies, systematic documentation habits, comprehensive monitoring workflows, and extreme caution (e.g., enforcing strict safety policies and never testing directly in production without a verified rollback plan).
+*   **The Paradigm Shift:** The speaker highlighted the critical mindset shift required when moving from legacy, rigid On-Premise environments to the Cloud, focusing on elastic scalability, pay-as-you-go cost optimization, leveraging fully managed services, and utilizing Infrastructure as Code (IaC). Growth in cloud computing dictates that an engineer must reinforce their core fundamentals in operating systems (particularly Linux), networking protocols, and automation script writing before managing high-level abstractions.
 
-#### Compute Evolution
+### 2.4. Multiplayer in the Cloud - Connecting Godot Clients with AWS WebSockets
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+This deeply technical session explored the architectural design of real-time bidirectional communication by connecting Godot engine game clients via AWS WebSocket protocols. The speaker performed a technical trade-off analysis between standard data communication protocols—such as UDP/ENet, WebSocket, and HTTP Polling—outlining the distinct advantages, limitations, and optimal use cases for each.
 
-#### Amazon Q Developer
+```
+[Godot Game Clients] <---> [Amazon API Gateway (WebSocket)] <---> [AWS Lambda] <---> [Amazon DynamoDB]
+                                                                        |
+                                                                [Amazon CloudWatch]
+```
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+*   **Key Insight:** The demonstrated production architecture leveraged Amazon API Gateway to maintain persistent stateful connections with clients, AWS Lambda to process event-driven backend business logic asynchronously, Amazon DynamoDB to store real-time connection states with minimal latency, and Amazon CloudWatch for central logging and analytics.
+*   **Architecture Value:** This architecture provided a concrete example of a highly scalable Serverless design pattern, enabling real-time applications (such as game lobbies, chat systems, or streaming dashboards) to scale dynamically without the overhead of maintaining or provisioning traditional virtual servers.
 
-### Key Takeaways
+### 2.5. The Art of Effective Teamwork
 
-#### Design Mindset
+Recognizing that software engineering is inherently collaborative, this session shifted focus toward the human side of technology, outlining four fundamental pillars required to maximize engineering team velocity and project success:
+*   **Aligned Goals:** Ensuring every team member has crystal-clear, shared objectives.
+*   **Optimal Resource Placement:** Assigning the right technical tasks to individuals based on their core strengths.
+*   **Open Communication & Active Listening:** Establishing psychological safety for constructive, transparent feedback loops.
+*   **Personal Accountability:** Maintaining an ownership mindset regarding individual deliverables.
+*   **Recommended Tooling Ecosystem:** The session introduced modern agile project management and communication suites—including ClickUp, Trello, Slack, Google Workspace, and Discord—to systematically track progress, organize sprints, and centralize technical documentation. This is highly practical for academic group projects and corporate internships alike.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+### 2.6. GraphRAG - Build GraphRAG Applications Using Amazon Bedrock and Amazon Neptune
 
-#### Technical Architecture
+The final session introduced cutting-edge trends within Generative AI, specifically exploring GraphRAG—an advanced paradigm that combines traditional Retrieval-Augmented Generation (RAG) with structural Knowledge Graphs.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+*   **Key Insight:** Traditional RAG searches for context using vector similarity across document chunks, which often falls short when user queries require deep, multi-hop reasoning across highly interconnected data points. GraphRAG solves this by structuring information as an interconnected web of nodes (entities) and edges (relationships).
+*   **Implementation Stack:** The speaker showcased how to build these complex architectures using Amazon Bedrock to orchestrate foundational Large Language Models (LLMs) alongside Amazon Neptune as the managed graph database engine. This highlighted that modern cloud platforms have evolved far beyond basic computation and storage providers, now operating as comprehensive ecosystems for deploying intelligent, semantic data-driven AI systems.
 
-#### Modernization Strategy
+## 3. Lessons learned
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+Attending this event provided a profound blend of technical, career, and interpersonal insights:
+*   **Technical Upskilling:** I consolidated my understanding of Docker's role in environment parity, AWS’s capability in scaling event-driven serverless architectures, and the imperative shift toward multi-layer behavioral security. Advanced topics like GraphRAG and WebSocket connections illustrated the immense breadth of the AWS ecosystem across varied domains.
+*   **Career Roadmap:** The transformation story from Helpdesk to Sysadmin reinforced that sustainable career growth in Cloud and DevOps demands a rock-solid grasp of baseline fundamentals—specifically Linux administration, advanced networking, telemetry monitoring, script automation, and deep documentation skills.
+*   **Soft Skills Integration:** I learned that technical brilliant is incomplete without streamlined collaboration. Implementing shared goals, maintaining absolute accountability, and utilizing modern agile project management tools are mandatory for delivering successful corporate-level tech projects.
 
-### Applying to Work
+## 4. Personal contribution
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+During the community day, I executed several intentional activities to maximize the value of my attendance:
+*   **Active Documentation:** I systematically took structured notes on architecture diagrams, service integrations, and best practices across AWS, containerization, and AI modules to serve as high-quality reference material for my academic and internship reports.
+*   **Knowledge Synthesis:** I actively mapped the real-world methodologies shared by the enterprise speakers against the baseline theoretical concepts I had previously studied within the AWS Study Group program, identifying specific gaps in my knowledge.
+*   **Actionable Learning Plan Adjustment:** Post-event, I translated my notes into a structured self-study plan. Moving forward, I will prioritize hands-on practice in packaging multi-tier applications using Docker, deploying serverless microservices on AWS, and experimenting with basic IAM and WAF security configurations within my personal lab environment.
 
-### Event Experience
+## 5. Conclusion
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+In summary, the AWS First Cloud Journey Community Day was an exceptionally impactful experience that broadened my perspective on the velocity of the modern cloud computing landscape. The sessions successfully demystified how individual AWS components interconnect to solve complex corporate challenges, while clearly defining the precise skill matrices expected by the tech industry in 2026.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+The event has left me deeply motivated to continue my technical trajectory, equipping me with the technical clarity and strategic focus necessary to pursue upcoming roles in Cloud Engineering, DevOps, and Backend Architecture.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+## Event Images
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+Some images recorded during the event:
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![AWS First Cloud Journey Community Day](/images/4-EventParticipated/4.1-Event1/z7976498940486_4005b6c6d8361abe3f1b76bdf4dd74ef.jpg)

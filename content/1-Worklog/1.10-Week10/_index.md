@@ -5,53 +5,33 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+The tenth week of the internship focused on refining system models, standardizing core technical documentation, and executing structural alignment audits. The primary tasks involved finalizing all system analysis and design diagrams to accurately reflect the implemented features. Additionally, comprehensive project technical documentation was standardized and synchronized with both the deployed AWS cloud architecture and the production source code.
 
 ### Week 10 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Finalize and adjust all system analysis models and software design diagrams.
+* Standardize the project's technical documentation suite to meet industry and academic benchmarks.
+* Synchronize system design documentation with the actual AWS deployment architecture blueprints.
+* Establish exact cross-reference consistency between technical documents and the implementation source code.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| :--- | :--- | :--- | :--- | :--- |
+| Fri | - Review all existing system analysis diagrams including Use Case and Class diagrams.<br>- Identify architectural disparities between early design schemas and current codes.<br>+ Document design segments requiring graphical adjustments. | 19/06/2026 | 19/06/2026 | Project source code, Team discussion |
+| Sat | - Refactor and finalize structural system analysis models and interaction diagrams.<br>- Ensure sequence diagrams accurately map the multi-criteria asset filtering behaviors.<br>+ Export updated diagram blocks into the project repository. | 20/06/2026 | 20/06/2026 | Project source code, Team discussion |
+| Sun | - Audit database relational schemas and update Entity-Relationship Diagrams (ERD).<br>- Verify that signature tracking tables and chat log properties are correctly modeled.<br>+ Update data dictionary definitions within the design file. | 21/06/2026 | 21/06/2026 | Project source code, Team discussion |
+| Mon | - Initiate the standardization process for the overall project technical documentation.<br>- Organize technical chapters, API contract descriptions, and environment parameters.<br>+ Author introductory segments for the standardized technical suite. | 22/06/2026 | 22/06/2026 | Project source code, Team discussion |
+| Tue | - Standardize system operation guides, deployment steps, and database connection setups.<br>- Review the complete technical document to eliminate formatting and structural errors.<br>+ Finalize technical definitions for backend system modules. | 23/06/2026 | 23/06/2026 | Project source code, Team discussion |
+| Wed | - Synchronize the compiled technical documentation with the AWS deployment architecture blueprints.<br>- Verify that network subnet paths, EC2 configurations, and S3 roles match the documents.<br>+ Ensure structural consistency across cloud deployment layouts. | 24/06/2026 | 24/06/2026 | AWS Documentation, Team discussion |
+| Thu | - Audit and synchronize technical document specifications with the actual repository source code.<br>- Map active API endpoint routes and parameter structures to the written specifications.<br>+ Finalize the log reports and outline system validation goals for the next week. | 25/06/2026 | 25/06/2026 | Project source code, Team discussion |
 
 ### Week 10 Achievements:
+* Successfully refined and finalized all structural system analysis models and software design diagrams.
+* Formulated and standardized a cohesive project technical documentation suite.
+* Achieved full synchronization between design documentation and the AWS cloud deployment architecture.
+* Validated total alignment between written technical specifications and the implementation source code base.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Plan for the Next Week:
+* Transition into system validation phases by executing comprehensive end-to-end integration testing.
+* Optimize implemented functional modules and refactor code performance parameters.
+* Review codebase status, clear outstanding system bugs, and prepare the infrastructure for acceptance evaluations.

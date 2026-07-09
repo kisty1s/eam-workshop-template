@@ -6,17 +6,13 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Phần này liệt kê và giới thiệu các bài blog chia sẻ kiến thức đã đăng trên [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj):
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+### [Blog 1 - Amazon EKS hỗ trợ định tuyến Control Plane Egress qua VPC](3.1-Blog1/)
+Bài viết giới thiệu tính năng Customer-routed control plane egress trong Amazon EKS, giúp doanh nghiệp chủ động định tuyến và kiểm soát lưu lượng outbound của Kubernetes Control Plane qua VPC của chính mình.
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Amazon EKS Auto Mode và Istio Ambient Mesh Integration](3.2-Blog2/)
+Bài viết phân tích sự kết hợp giữa Amazon EKS Auto Mode, tự động hóa compute bằng Karpenter và Bottlerocket, với Istio Ambient Mesh, kiến trúc service mesh không cần sidecar.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 3 - AWS Continuum - Quản lý lỗ hổng thông minh bằng AI](3.3-Blog3/)
+Bài viết giới thiệu AWS Continuum, sáng kiến bảo mật của AWS ứng dụng Artificial Intelligence (AI) để tối ưu và tự động hóa vòng đời quản lý lỗ hổng cho doanh nghiệp.

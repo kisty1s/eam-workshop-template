@@ -1,31 +1,40 @@
 ---
-title: "Blog 2"
+title: "Amazon EKS Auto Mode and Istio Ambient Mesh Integration"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+While learning about Kubernetes, I came across an article by AWS explaining how to combine Amazon EKS Auto Mode and Istio Ambient Mesh. These two technologies work together to significantly reduce operational overhead while automatically enhancing service-to-service security.
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+As a microservices system grows from a few services to hundreds of services, two major problems arise: managing infrastructure such as node provisioning, patching, and scaling, and securing communications between services. EKS Auto Mode and Istio Ambient Mesh are a "Better Together" solution to address both of these issues.
 
-Key points to know:
+### 1. Amazon EKS Auto Mode
+This is a powerful automation mode for EKS, where AWS manages almost the entire compute layer:
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+* **Automated Node Provisioning and Scaling:** Karpenter manages node provisioning, scaling, and patching automatically.
+* **Bottlerocket OS:** Uses Bottlerocket, a minimal, immutable, and highly secure operating system.
+* **Managed System Components:** VPC CNI, kube-proxy, EBS CSI, CoreDNS, Load Balancer Controller, and other system processes are managed directly by AWS.
+* **Reduced Attack Surface:** Removes the need to SSH into nodes, reducing security exposure.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+### 2. Istio Ambient Mesh
+This is the sidecarless architecture of Istio, which applies service mesh capabilities without injecting a sidecar proxy into each pod:
 
-...Image...
+* **ztunnel:** Handles Layer 3/4 network traffic, including mTLS, L4 authorization, and TCP telemetry.
+* **Istio CNI:** Redirects network traffic through ztunnel.
+* **Waypoint Proxy:** Handles Layer 7 concerns such as HTTP routing, retries, L7 authorization, and circuit breaking when needed.
 
-...Link...
+![Amazon EKS Auto Mode and Istio Ambient Mesh](/images/3-BlogsPosted/eks_auto_mode_istio_ambient.png)
 
-...Guide...
+### Conclusion:
+The combination of Amazon EKS Auto Mode and Istio Ambient Mesh delivers a modern Kubernetes environment: heavy automation at the compute layer and flexible security at the service mesh layer, without adding complexity to the application. This is a highly recommended direction for teams building microservice platforms on AWS.
+
+---
+**References:**
+* AWS Blog Post: <https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/>
+
+**Proof of Posting:**
+* Facebook Group Link: <https://www.facebook.com/groups/awsstudygroupfcj/permalink/2193364788095148/>
+
+![Proof of Posting](/images/3-BlogsPosted/blog2_facebook_post.png)
