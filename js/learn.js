@@ -392,13 +392,20 @@ jQuery(window).on("load", function () {
     adjustForScrollbar();
   });
 
+  function normalizeVisitedUrl(url) {
+    if (!url || url === "./" || url === ".") return "/";
+    var anchor = document.createElement("a");
+    anchor.href = url;
+    return anchor.pathname.replace(/\/eam-workshop-template(?=\/|$)/, "") || "/";
+  }
+
   // store this page in session
-  sessionStorage.setItem(jQuery("body").data("url"), 1);
+  sessionStorage.setItem(normalizeVisitedUrl(jQuery("body").data("url")), 1);
 
   // loop through the sessionStorage and see if something should be marked as visited
   for (var url in sessionStorage) {
     if (sessionStorage.getItem(url) == 1)
-      jQuery('[data-nav-id="' + url + '"]').addClass("visited");
+      jQuery('[data-nav-id="' + normalizeVisitedUrl(url) + '"]').addClass("visited");
   }
 
   $(".highlightable").highlight(sessionStorage.getItem("search-value"), {
