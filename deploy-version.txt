@@ -1,3 +1,3 @@
-﻿source=432dac0
-deployed=2026-07-09T20:38:44+07:00
-fix=logo-home-link
+﻿source=90deb2c
+deployed=2026-07-09T21:39:22+07:00
+fix=event3-participation-format
