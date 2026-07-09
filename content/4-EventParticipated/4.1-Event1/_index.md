@@ -98,9 +98,3 @@ During the community day, I executed several intentional activities to maximize 
 In summary, the AWS First Cloud Journey Community Day was an exceptionally impactful experience that broadened my perspective on the velocity of the modern cloud computing landscape. The sessions successfully demystified how individual AWS components interconnect to solve complex corporate challenges, while clearly defining the precise skill matrices expected by the tech industry in 2026.
 
 The event has left me deeply motivated to continue my technical trajectory, equipping me with the technical clarity and strategic focus necessary to pursue upcoming roles in Cloud Engineering, DevOps, and Backend Architecture.
-
-## Event Images
-
-Some images recorded during the event:
-
-![AWS First Cloud Journey Community Day](/images/4-EventParticipated/4.1-Event1/z7976498940486_4005b6c6d8361abe3f1b76bdf4dd74ef.jpg)
