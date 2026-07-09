@@ -1,5 +1,5 @@
-baseURL = "/"
-relativeURLs = true
+baseURL = "https://kisty1s.github.io/eam-workshop-template/"
+relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
