@@ -13,7 +13,7 @@ pre: " <b> 4.3. </b> "
 | --- | --- |
 | Thời gian | Thứ Bảy, ngày 04/07/2026 |
 | Địa điểm | Văn phòng AWS Việt Nam, Tòa nhà Bitexco Financial Tower |
-| Hình thức tham gia | Tham gia trực tiếp |
+| Hình thức tham gia | Tham gia trực tiếp (Livestream qua YouTube) |
 | Vai trò | Người tham dự |
 | Chủ đề chính | Enterprise Cloud Architectures, GenAI, Data Engineering, Lộ trình phát triển sự nghiệp và Ứng dụng công nghệ thực chiến trong doanh nghiệp |
 
