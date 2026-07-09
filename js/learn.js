@@ -404,8 +404,16 @@ jQuery(window).on("load", function () {
 
   // loop through the sessionStorage and see if something should be marked as visited
   for (var url in sessionStorage) {
-    if (sessionStorage.getItem(url) == 1)
-      jQuery('[data-nav-id="' + normalizeVisitedUrl(url) + '"]').addClass("visited");
+    if (sessionStorage.getItem(url) == 1) {
+      var normalizedUrl = normalizeVisitedUrl(url);
+      jQuery(
+        '[data-nav-id="' +
+          normalizedUrl +
+          '"], [data-nav-id="/eam-workshop-template' +
+          normalizedUrl +
+          '"]',
+      ).addClass("visited");
+    }
   }
 
   $(".highlightable").highlight(sessionStorage.getItem("search-value"), {
