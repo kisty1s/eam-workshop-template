@@ -19,7 +19,7 @@ pre: " <b> 4.4. </b> "
 
 ## 2. Tổng quan
 
-Sự kiện **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** (số tháng 07/2026) là một buổi chia sẻ vô cùng đặc biệt và giàu cảm hứng. Tại đây, mình có cơ hội trực tiếp ngồi dưới hội trường văn phòng AWS Việt Nam để lắng nghe các anh chị vừa hoàn thành cuộc thi **Agentic AI Build Week (AABW) Hackathon** lên sân khấu báo cáo, thuyết trình và chia sẻ lại toàn bộ hành trình làm sản phẩm thực chiến của mình.
+Sự kiện **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** (số tháng 07/2026) là một buổi chia sẻ vô cùng đặc biệt và giàu cảm hứng. Tại đây, mình có cơ hội trực tiếp ngồi ở văn phòng AWS Việt Nam để lắng nghe các anh chị vừa hoàn thành cuộc thi **Agentic AI Build Week (AABW) Hackathon** lên sân khấu báo cáo, thuyết trình và chia sẻ lại toàn bộ hành trình làm sản phẩm thực chiến của mình.
 
 Trong suốt buổi sáng, các anh chị nhóm thi đã lần lượt đứng trên sân khấu để trình bày kiến trúc hệ thống (Architecture Pitch), chia sẻ những kinh nghiệm xương máu sau 24 giờ làm việc liên tục và thực hiện các màn Live Demo trực tiếp ngay trước mắt người nghe. Được trực tiếp theo dõi các anh chị trình diễn cách ứng dụng **Amazon Bedrock AgentCore**, **SageMaker**, **YOLO**, **Langfuse** cùng các dịch vụ AWS Cloud-Native giúp mình học hỏi được rất nhiều bài học thực tế mà sách vở hay lý thuyết thông thường khó có được.
 
