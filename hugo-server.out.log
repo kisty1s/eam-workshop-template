@@ -1,0 +1,417 @@
+Watching for changes in C:/Users/TRUON/Downloads/New folder/eam-workshop-template/archetypes, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/content/{1-Worklog,2-Proposal,3-BlogsPosted,4-EventParticipated,5-Workshop,...}, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/layouts/{partials,shortcodes}, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/static/{css,fonts,images}, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/themes/hugo-theme-learn/archetypes, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/themes/hugo-theme-learn/i18n, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/themes/hugo-theme-learn/layouts/{_default,partials,shortcodes}, C:/Users/TRUON/Downloads/New folder/eam-workshop-template/themes/hugo-theme-learn/static/{css,fonts,images,js,mermaid,...}
+Watching for config changes in C:\Users\TRUON\Downloads\New folder\eam-workshop-template\config.toml
+Start building sites … 
+hugo v0.164.0-ce2470e7012b5ab5fc4e10ebe4027e9f8d9e00dc+extended windows/amd64 BuildDate=2026-07-06T16:39:30Z VendorInfo=gohugoio
+
+
+                  │ EN  │ VI  
+──────────────────┼─────┼─────
+ Pages            │  84 │  83 
+ Paginator pages  │   0 │   0 
+ Non-page files   │   0 │   0 
+ Static files     │ 189 │ 189 
+ Processed images │   0 │   0 
+ Aliases          │   1 │   0 
+ Cleaned          │   0 │   0 
+
+Built in 3562 ms
+Environment: "development"
+Serving pages from disk
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2026-07-09 13:30:26.449 +0700
+Source changed /7-feedback/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2653 ms
+
+Change detected, rebuilding site (#2).
+2026-07-09 13:30:29.184 +0700
+Source changed /7-feedback
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2483 ms
+
+Change detected, rebuilding site (#3).
+2026-07-09 13:30:51.856 +0700
+Source changed /7-feedback/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1918 ms
+
+Change detected, rebuilding site (#4).
+2026-07-09 13:30:53.893 +0700
+Source changed /7-feedback
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2705 ms
+
+Change detected, rebuilding site (#5).
+2026-07-09 13:31:00.360 +0700
+Source changed /7-feedback/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 3169 ms
+
+Change detected, rebuilding site (#6).
+2026-07-09 13:31:03.598 +0700
+Source changed /7-feedback
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 3995 ms
+
+Change detected, rebuilding site (#7).
+2026-07-09 13:31:21.347 +0700
+Source changed /7-feedback/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2342 ms
+
+Change detected, rebuilding site (#8).
+2026-07-09 13:31:23.714 +0700
+Source changed /7-feedback
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1703 ms
+
+Change detected, rebuilding site (#9).
+2026-07-09 13:33:41.864 +0700
+Source changed /1-worklog/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 148 ms
+
+Change detected, rebuilding site (#10).
+2026-07-09 13:33:58.848 +0700
+Source changed /1-worklog/_index.vi.md
+Source changed /1-worklog/_index.md
+Template changed /partials/menu.html
+Template changed /_default/list.html
+Template changed /partials/header.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1909 ms
+
+Change detected, rebuilding site (#11).
+2026-07-09 13:34:00.762 +0700
+Template changed /partials/menu.html
+Template changed /index.html
+Template changed /partials/header.html
+Source changed /1-worklog
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1226 ms
+
+Change detected, rebuilding site (#12).
+2026-07-09 13:34:18.355 +0700
+Source changed /1-worklog/_index.vi.md
+Template changed /partials/menu.html
+Template changed /index.html
+Template changed /partials/header.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2480 ms
+
+Change detected, rebuilding site (#13).
+2026-07-09 13:34:20.861 +0700
+Source changed /1-worklog
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1972 ms
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.1-Workshop-overview
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.2-Prerequisites
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.3-Network-RDS
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.4-Backend-Elastic-Beanstalk
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.5-Frontend-Amplify
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.6-Test-Monitor
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\images\5-Workshop\5.7-Cleanup
+
+Change of Static files detected, rebuilding site (#14).
+2026-07-09 13:40:21.971 +0700
+Syncing \images\5-Workshop to \
+Syncing \images to \
+
+Change detected, rebuilding site (#15).
+2026-07-09 13:40:24.183 +0700
+Source changed /5-workshop
+
+Change detected, rebuilding site (#16).
+2026-07-09 13:40:25.442 +0700
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2179 ms
+
+Change of Static files detected, rebuilding site (#17).
+2026-07-09 13:40:26.404 +0700
+Syncing \images\5-Workshop to \
+Syncing \images to \
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Rebuilt in 5474 ms
+
+Change of Static files detected, rebuilding site (#18).
+2026-07-09 13:57:12.848 +0700
+Syncing \images\avatar.png to \
+
+Change detected, rebuilding site (#19).
+2026-07-09 13:59:08.850 +0700
+Source changed /_index.md
+Source changed /_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1938 ms
+
+Change of Static files detected, rebuilding site (#20).
+2026-07-09 14:00:49.850 +0700
+Syncing \css\theme-workshop.css to \
+
+Change detected, rebuilding site (#21).
+2026-07-09 14:00:49.886 +0700
+Source changed /_index.md
+Source changed /_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1509 ms
+
+Change of Static files detected, rebuilding site (#22).
+2026-07-09 14:02:57.848 +0700
+Syncing \css\theme-workshop.css to \
+
+Change of Static files detected, rebuilding site (#23).
+2026-07-09 14:04:07.847 +0700
+Syncing \css\theme-workshop.css to \
+
+Change detected, rebuilding site (#24).
+2026-07-09 14:04:58.349 +0700
+Source changed /_index.md
+Source changed /_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2527 ms
+
+Change of Static files detected, rebuilding site (#25).
+2026-07-09 14:05:54.350 +0700
+Syncing \css\theme-workshop.css to \
+
+Change of Static files detected, rebuilding site (#26).
+2026-07-09 14:06:57.849 +0700
+Syncing \images\avatar.png to \
+
+Change of Static files detected, rebuilding site (#27).
+2026-07-09 14:08:25.848 +0700
+Syncing \css\theme-workshop.css to \
+
+Change of Static files detected, rebuilding site (#28).
+2026-07-09 14:15:53.849 +0700
+Syncing \CNAME to \
+
+Change of config file detected, rebuilding site (#29).
+2026-07-09 14:23:15.346 +0700
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Rebuilt in 2871 ms
+
+Change detected, rebuilding site (#30).
+2026-07-09 14:23:50.349 +0700
+Source changed /_index.md
+Source changed /_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1569 ms
+
+Change of config file detected, rebuilding site (#31).
+2026-07-09 14:28:10.346 +0700
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Rebuilt in 3277 ms
+
+Change of config file detected, rebuilding site (#32).
+2026-07-09 14:28:44.847 +0700
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Rebuilt in 3897 ms
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\static\js
+
+Change of Static files detected, rebuilding site (#33).
+2026-07-09 14:36:30.391 +0700
+Syncing \js to \
+
+Change of Static files detected, rebuilding site (#34).
+2026-07-09 14:36:44.844 +0700
+Syncing \js\learn.js to \
+
+Change detected, rebuilding site (#35).
+2026-07-09 14:39:54.848 +0700
+Template changed /partials/menu.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1566 ms
+
+Change detected, rebuilding site (#36).
+2026-07-09 14:40:38.854 +0700
+Template changed /partials/menu.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2401 ms
+
+Change of config file detected, rebuilding site (#37).
+2026-07-09 14:44:15.850 +0700
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Rebuilt in 2958 ms
+
+Change detected, rebuilding site (#38).
+2026-07-09 15:00:10.352 +0700
+Source changed /3-blogsposted/3.1-blog1/_index.md
+Source changed /3-blogsposted/3.1-blog1/_index.vi.md
+Source changed /3-blogsposted/3.2-blog2/_index.md
+Source changed /3-blogsposted/3.2-blog2/_index.vi.md
+Source changed /3-blogsposted/3.3-blog3/_index.md
+Source changed /3-blogsposted/3.3-blog3/_index.vi.md
+Source changed /4-eventparticipated/4.1-event1/_index.md
+Source changed /4-eventparticipated/4.1-event1/_index.vi.md
+Source changed /4-eventparticipated/4.2-event2/_index.md
+Source changed /4-eventparticipated/4.2-event2/_index.vi.md
+Source changed /4-eventparticipated/4.3-event3/_index.md
+Source changed /4-eventparticipated/4.3-event3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1004 ms
+
+Change detected, rebuilding site (#39).
+2026-07-09 15:04:14.847 +0700
+Source changed /3-blogsposted/3.1-blog1/_index.md
+Source changed /3-blogsposted/3.1-blog1/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1255 ms
+
+Change detected, rebuilding site (#40).
+2026-07-09 15:04:16.154 +0700
+Source changed /3-blogsposted/3.2-blog2/_index.md
+Source changed /3-blogsposted/3.2-blog2/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1652 ms
+
+Change detected, rebuilding site (#41).
+2026-07-09 15:04:17.880 +0700
+Source changed /3-blogsposted/3.3-blog3/_index.md
+Source changed /3-blogsposted/3.3-blog3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1724 ms
+
+Change detected, rebuilding site (#42).
+2026-07-09 15:04:19.682 +0700
+Source changed /4-eventparticipated/4.1-event1/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2402 ms
+
+Change detected, rebuilding site (#43).
+2026-07-09 15:04:22.265 +0700
+Source changed /4-eventparticipated/4.1-event1/_index.vi.md
+Source changed /4-eventparticipated/4.2-event2/_index.md
+Source changed /4-eventparticipated/4.2-event2/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2075 ms
+
+Change detected, rebuilding site (#44).
+2026-07-09 15:04:24.370 +0700
+Source changed /4-eventparticipated/4.2-event2/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1840 ms
+
+Change detected, rebuilding site (#45).
+2026-07-09 15:04:26.264 +0700
+Source changed /4-eventparticipated/4.3-event3/_index.md
+Source changed /4-eventparticipated/4.3-event3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2295 ms
+
+Change detected, rebuilding site (#46).
+2026-07-09 15:04:45.847 +0700
+Source changed /3-blogsposted/3.1-blog1/_index.md
+Source changed /3-blogsposted/3.1-blog1/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1748 ms
+
+Change detected, rebuilding site (#47).
+2026-07-09 15:04:47.646 +0700
+Source changed /3-blogsposted/3.2-blog2/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2055 ms
+
+Change detected, rebuilding site (#48).
+2026-07-09 15:04:49.761 +0700
+Source changed /3-blogsposted/3.2-blog2/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1397 ms
+
+Change detected, rebuilding site (#49).
+2026-07-09 15:04:51.226 +0700
+Source changed /3-blogsposted/3.3-blog3/_index.md
+Source changed /3-blogsposted/3.3-blog3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2135 ms
+
+Change detected, rebuilding site (#50).
+2026-07-09 15:04:53.516 +0700
+Source changed /3-blogsposted/3.3-blog3/_index.vi.md
+Source changed /4-eventparticipated/4.1-event1/_index.md
+Source changed /4-eventparticipated/4.1-event1/_index.vi.md
+Source changed /4-eventparticipated/4.2-event2/_index.md
+Source changed /4-eventparticipated/4.2-event2/_index.vi.md
+Source changed /4-eventparticipated/4.3-event3/_index.md
+Source changed /4-eventparticipated/4.3-event3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 2136 ms
+
+Change detected, rebuilding site (#51).
+2026-07-09 15:08:19.345 +0700
+Source changed /_index.md
+Source changed /_index.vi.md
+Template changed /404.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 736 ms
+
+Change detected, rebuilding site (#52).
+2026-07-09 15:11:06.849 +0700
+Source changed /3-blogsposted/3.1-blog1/_index.md
+Source changed /3-blogsposted/3.1-blog1/_index.vi.md
+Source changed /3-blogsposted/3.2-blog2/_index.md
+Source changed /3-blogsposted/3.2-blog2/_index.vi.md
+Source changed /3-blogsposted/3.3-blog3/_index.md
+Source changed /3-blogsposted/3.3-blog3/_index.vi.md
+Source changed /4-eventparticipated/4.1-event1/_index.md
+Source changed /4-eventparticipated/4.1-event1/_index.vi.md
+Source changed /4-eventparticipated/4.2-event2/_index.md
+Source changed /4-eventparticipated/4.2-event2/_index.vi.md
+Source changed /4-eventparticipated/4.3-event3/_index.md
+Source changed /4-eventparticipated/4.3-event3/_index.vi.md
+Source changed /_index.md
+Source changed /_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 898 ms
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\layouts\_default
+adding created directory to watchlist C:\Users\TRUON\Downloads\New folder\eam-workshop-template\layouts\_default\_markup
+
+Change detected, rebuilding site (#53).
+2026-07-09 15:11:28.347 +0700
+Template added /_default/_markup/render-image.html
+Template added /shortcodes/avatar.html
+Source changed /_index.md
+Source changed /_index.vi.md
+Template added /_default
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 760 ms
+
+Change detected, rebuilding site (#54).
+2026-07-09 15:11:29.109 +0700
+Template added /_default
+Template added /_default/_markup
+Template added /shortcodes
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 694 ms
+
+Change detected, rebuilding site (#55).
+2026-07-09 15:14:15.844 +0700
+Source changed /4-eventparticipated/4.3-event3/_index.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 715 ms
+
+Change detected, rebuilding site (#56).
+2026-07-09 20:37:18.842 +0700
+Template changed /partials/logo.html
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 679 ms
+
+Change detected, rebuilding site (#57).
+2026-07-09 21:38:04.844 +0700
+Source changed /4-eventparticipated/4.3-event3/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 1377 ms
+
+Change detected, rebuilding site (#58).
+2026-07-09 22:34:03.848 +0700
+Source changed /4-eventparticipated/4.1-event1/_index.md
+Source changed /4-eventparticipated/4.1-event1/_index.vi.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 545 ms
+
+Change of Static files detected, rebuilding site (#59).
+2026-07-09 22:34:14.847 +0700

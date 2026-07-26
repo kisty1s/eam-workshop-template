@@ -33,12 +33,12 @@ Thông qua các phiên thuyết trình kiến trúc (Architecture Pitch) và Liv
     *   Hỗ trợ khách hàng truyền thống qua nhân viên chat không thể mở rộng linh hoạt theo ca trực hay các đợt bùng nổ lượng truy cập (traffic spikes). Việc ép khách hàng phải chuyển đổi ứng dụng hoặc tải ứng dụng mới để đặt hàng tạo ra rào cản lớn (friction), khiến khách hàng bỏ ngang luồng mua sắm (lost momentum & lost order).
 *   **Giải pháp (KFC Bot Agent):**
     *   Xây dựng một Trợ lý AI đặt hàng đa kênh (Multi-channel Conversational Ordering Agent) hoạt động mượt mà trên Zalo OA, WhatsApp, Messenger... Khách hàng có thể tương tác và chốt đơn ngay trong ứng dụng nhắn tin họ đang dùng mà không cần chuyển app, không cần tạo tài khoản mới hay giải thích lại yêu cầu.
-*   **Cơ chế hoạt động Agentic (Goal $\rightarrow$ Plan $\rightarrow$ Tools $\rightarrow$ Act $\rightarrow$ Verify):**
-    *   Mô hình ngôn ngữ đảm nhận vai trò thấu hiểu ý định, trong khi các công cụ (Tools) quyết định dữ liệu thực tế thông qua 5 bước nghiêm ngặt: (1) Hiểu ý định đặt hàng $\rightarrow$ (2) Lập kế hoạch các bước $\rightarrow$ (3) Tìm kiếm dữ liệu kinh doanh tin cậy $\rightarrow$ (4) Cập nhật giỏ hàng & áp dụng khuyến mãi $\rightarrow$ (5) Xác nhận dữ liệu với giỏ hàng thực tế.
+*   **Cơ chế hoạt động Agentic (Goal -> Plan -> Tools -> Act -> Verify):**
+    *   Mô hình ngôn ngữ đảm nhận vai trò thấu hiểu ý định, trong khi các công cụ (Tools) quyết định dữ liệu thực tế thông qua 5 bước nghiêm ngặt: (1) Hiểu ý định đặt hàng -> (2) Lập kế hoạch các bước -> (3) Tìm kiếm dữ liệu kinh doanh tin cậy -> (4) Cập nhật giỏ hàng & áp dụng khuyến mãi -> (5) Xác nhận dữ liệu với giỏ hàng thực tế.
     *   Tư duy kiến trúc *"Design Once | Deploy Everywhere"*: Thêm kênh giao tiếp mới chỉ cần bổ sung Adapter, thêm hệ thống kinh doanh mới chỉ cần bổ sung Connector, thêm năng lực xử lý mới chỉ cần thêm Tool mà không phải viết lại toàn bộ hệ thống.
 *   **Hạ tầng AWS & Hiệu quả Chi phí:**
     *   Tận dụng **Amazon Bedrock AgentCore** làm lớp nền tảng giúp cắt giảm tới **60% mã nguồn hạ tầng** (infra code).
-    *   Độ trễ xử lý phản hồi (End-to-end latency): đạt từ **3 – 5 giây** (từ lúc gửi tin nhắn đến khi nhận phản hồi).
+    *   Độ trễ xử lý phản hồi (End-to-end latency): đạt từ **3 - 5 giây** (từ lúc gửi tin nhắn đến khi nhận phản hồi).
     *   Chi phí vận hành tối ưu vượt trội: Chỉ **$0.006 / đơn hàng** (tính trên quy mô 500 đơn/ngày); tổng chi phí hạ tầng khoảng **$88 / tháng** (trong đó chi phí truy vấn Bedrock chiếm 75%).
     *   **Thành tích:** Xuất sắc giành giải Nhất (First Place) tại cuộc thi AABW Hackathon!
 
@@ -63,13 +63,13 @@ Thông qua các phiên thuyết trình kiến trúc (Architecture Pitch) và Liv
 *   **Bối cảnh & Thách thức:**
     *   Các Kiến trúc sư Giải pháp (Solution Architect - SA) thường mất hàng giờ đồng hồ đọc tài liệu yêu cầu (BRD/PRD) thủ công, bắt đầu thiết kế sơ đồ từ trang trắng, tự viết mã IaC và đưa ra các ước tính chi phí đám mây mang tính cảm tính, thiếu chuẩn hóa dưới áp lực thời gian gấp gáp từ khách hàng.
 *   **Giải pháp SA Professional AI Native App:**
-    *   Ứng dụng AI Native hỗ trợ SA: Tự động phân tích yêu cầu dạng ngôn ngữ tự nhiên hoặc tài liệu có cấu trúc $\rightarrow$ Phác thảo các phương án kiến trúc Hybrid-Cloud tối ưu theo chuẩn doanh nghiệp.
+    *   Ứng dụng AI Native hỗ trợ SA: Tự động phân tích yêu cầu dạng ngôn ngữ tự nhiên hoặc tài liệu có cấu trúc -> Phác thảo các phương án kiến trúc Hybrid-Cloud tối ưu theo chuẩn doanh nghiệp.
     *   Tự động khởi tạo sơ đồ kiến trúc có thể chỉnh sửa trên **Draw.io** và các sơ đồ biểu tượng AWS chuẩn (AWS Architecture Icons).
     *   Tự động xuất bảng ước tính chi phí dịch vụ AWS (directional cost estimates) áp dụng cho region `ap-southeast-1`.
     *   Chỉ ra các điểm còn thiếu trong yêu cầu (requirement gaps), giả định và khuyến nghị kiến trúc; cho phép tinh chỉnh linh hoạt qua Chat Sidebar với hướng dẫn tùy chỉnh theo từng dự án.
 *   **Tác động (Impact):**
-    *   Chuyển từ đọc tài liệu thủ công $\rightarrow$ Xây dựng danh mục yêu cầu chuẩn hóa chỉ trong vài phút.
-    *   Thay thế trang trắng $\rightarrow$ Cung cấp bản thảo kiến trúc chất lượng cao để nghiệm thu ngay.
+    *   Chuyển từ đọc tài liệu thủ công -> Xây dựng danh mục yêu cầu chuẩn hóa chỉ trong vài phút.
+    *   Thay thế trang trắng -> Cung cấp bản thảo kiến trúc chất lượng cao để nghiệm thu ngay.
     *   Tự động hóa khởi tạo mã IaC và dự toán chi phí AWS đi kèm sơ đồ kiến trúc.
 
 ### 3.4. Team Signal Scout - Hệ thống Phát hiện Tín hiệu Thay đổi Chiến lược Doanh nghiệp
@@ -81,7 +81,7 @@ Thông qua các phiên thuyết trình kiến trúc (Architecture Pitch) và Liv
     *   Hệ thống hỗ trợ ban lãnh đạo đưa ra các quyết định Duy trì (Maintain), Thích ứng (Adapt) hoặc Đẩy mạnh (Accelerate) với độ minh bạch cao, có căn cứ bằng chứng rõ ràng.
 *   **Kiến trúc & Tối ưu Chi phí Hạ tầng AWS (Cost Breakdown):**
     *   Kiến trúc tích hợp toàn diện trên AWS: **Amazon Bedrock**, **AgentCore Short-Term Memory & Runtime**, **AWS WAF**, **Amplify Hosting**, **CloudWatch**, **Secrets Manager**, **DynamoDB**, **Lambda**, **Route 53**, **CloudTrail**, **S3 Intelligent-Tiering**, **API Gateway HTTP**, **Cognito**, kết hợp công cụ giám sát LLM **Langfuse**.
-    *   Báo cáo cung cấp mô hình phân tích chi phí chi tiết theo 3 kịch bản: Min (~$81/tháng), Mid (~$94/tháng), Max (~$359/tháng), minh minh chứng cách thiết kế kiến trúc đám mây tối ưu chi phí cho các ứng dụng AI Agent cỡ vừa và lớn.
+    *   Báo cáo cung cấp mô hình phân tích chi phí chi tiết theo 3 kịch bản: Min (khoảng $81/tháng), Mid (khoảng $94/tháng), Max (khoảng $359/tháng), minh chứng cách thiết kế kiến trúc đám mây tối ưu chi phí cho các ứng dụng AI Agent cỡ vừa và lớn.
 
 ## 4. Kiến thức & Bài học rút ra
 
@@ -106,11 +106,8 @@ Nội dung báo cáo từ 4 dự án tại sự kiện FCAJ Community Day mang l
 
 Sự kiện **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** là một minh chứng rõ nét cho sự chuyển dịch mạnh mẽ của cộng đồng công nghệ sang kỷ nguyên Trí tuệ nhân tạo dạng tác nhân. Việc tận dụng hệ sinh thái AWS cùng với tư duy thiết kế kiến trúc chuẩn mực không chỉ giúp các nhóm phát triển rút ngắn thời gian xây dựng sản phẩm từ hàng tháng xuống 24 giờ, mà còn mở ra những tiềm năng to lớn trong việc tự động hóa và thông minh hóa các hệ thống phần mềm doanh nghiệp như EAM Workspace.
 
-## 7. Video Live & Tài nguyên sự kiện
+## 7. Hình ảnh sự kiện
 
-*   **Video Live toàn bộ sự kiện:** [Xem trực tiếp trên YouTube](https://youtu.be/hz32VBrvW7M)
-*   **Slide báo cáo của các đội thi:**
-    *   `OneTeam_CommunityDay.pptx` (Multi-Channel AI Ordering - KFC Bot Agent)
-    *   `Hackathon_Journey_3KA.pptx` (S.H.E.P.H.E.R.D Crowd Analytics System)
-    *   `SA_Professional_Native_App.pptx` (Solution Architect Professional AI Native App)
-    *   `SignalScout.pptx` (Signal Scout Corporate Intelligence Platform)
+Một số hình ảnh ấn tượng được ghi lại trong quá trình tham gia buổi Study Tour tại AWS Việt Nam:
+
+![AWS Agentic AI Build Week](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)

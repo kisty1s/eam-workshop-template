@@ -33,12 +33,12 @@ Through architecture pitches and live demonstrations from 4 key teams (**OneTeam
     *   Traditional human-only chat support fails to scale across shifts and traffic spikes. Forcing users to download or switch to separate mobile apps creates friction, causing lost customer momentum and abandoned orders.
 *   **Solution (KFC Bot Agent):**
     *   A multi-channel conversational ordering agent operating directly within existing messaging channels (Zalo OA, WhatsApp, Messenger). Customers place orders without leaving the chat, downloading apps, creating accounts, or repeating instructions.
-*   **Agentic Execution Flow (Goal $\rightarrow$ Plan $\rightarrow$ Tools $\rightarrow$ Act $\rightarrow$ Verify):**
-    *   The model understands intent while tools govern factual actions across 5 steps: (1) Understand ordering intent $\rightarrow$ (2) Plan required steps $\rightarrow$ (3) Query trusted business data $\rightarrow$ (4) Update cart & apply promotions $\rightarrow$ (5) Verify against actual cart state.
+*   **Agentic Execution Flow (Goal -> Plan -> Tools -> Act -> Verify):**
+    *   The model understands intent while tools govern factual actions across 5 steps: (1) Understand ordering intent -> (2) Plan required steps -> (3) Query trusted business data -> (4) Update cart & apply promotions -> (5) Verify against actual cart state.
     *   *"Design Once | Deploy Everywhere"* Architecture: Adding a channel requires only an Adapter, a new business system needs a Connector, and new capabilities require a Tool without rewriting core code.
 *   **AWS Infrastructure & Cost Efficiency:**
     *   Leveraged **Amazon Bedrock AgentCore** to replace infrastructure layers, cutting **60% of infrastructure code**.
-    *   End-to-end latency: **3 – 5 seconds** (from message sent to response received).
+    *   End-to-end latency: **3 - 5 seconds** (from message sent to response received).
     *   Extremely cost-effective: **$0.006 per order** (at 500 orders/day); total infra cost ~$88/month (Bedrock accounting for 75%).
     *   **Achievement:** Won 1st Place at the AABW Hackathon!
 
@@ -63,7 +63,7 @@ Through architecture pitches and live demonstrations from 4 key teams (**OneTeam
 *   **Problem & Motivation:**
     *   Solution Architects spend hours reading BRD/PRD documents line-by-line, creating architecture diagrams from blank pages, manually writing IaC code, and estimating cloud costs based on subjective guesswork under tight deadlines.
 *   **SA Professional AI Native App Solution:**
-    *   An AI-native assistant for SAs: Analyzes natural language requirements and structured PRDs $\rightarrow$ Drafts high-level, enterprise-aligned hybrid-cloud architecture options.
+    *   An AI-native assistant for SAs: Analyzes natural language requirements and structured PRDs -> Drafts high-level, enterprise-aligned hybrid-cloud architecture options.
     *   Generates editable diagrams on **Draw.io** using official **AWS Architecture Icons**.
     *   Produces directional AWS service cost estimates tailored for the `ap-southeast-1` region.
     *   Identifies requirement gaps, assumptions, and recommendations, allowing iterative refinement via a Chat Sidebar.
@@ -81,7 +81,7 @@ Through architecture pitches and live demonstrations from 4 key teams (**OneTeam
     *   Supports leadership decisions to Maintain, Adapt, or Accelerate with transparent, evidence-backed reasoning.
 *   **AWS Architecture & Cost Breakdown:**
     *   Comprehensive AWS Stack: **Amazon Bedrock**, **AgentCore Short-Term Memory & Runtime**, **AWS WAF**, **Amplify Hosting**, **CloudWatch**, **Secrets Manager**, **DynamoDB**, **Lambda**, **Route 53**, **CloudTrail**, **S3 Intelligent-Tiering**, **API Gateway HTTP**, **Cognito**, integrated with **Langfuse** for LLM observability.
-    *   Detailed cost analysis across 3 scenarios: Min (~$81/mo), Mid (~$94/mo), and Max (~$359/mo), demonstrating cost-effective cloud architecture for enterprise AI agents.
+    *   Detailed cost analysis across 3 scenarios: Min (approx. $81/mo), Mid (approx. $94/mo), and Max (approx. $359/mo), demonstrating cost-effective cloud architecture for enterprise AI agents.
 
 ## 4. Key Takeaways
 
@@ -106,11 +106,8 @@ Key architecture lessons from the 4 presenting teams can be directly applied to 
 
 The **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** demonstrated the paradigm shift toward Agentic AI. Leveraging the AWS ecosystem and sound cloud architecture enables teams to accelerate product development from months to 24 hours while unlocking tremendous opportunities for enterprise software systems like EAM Workspace.
 
-## 7. Event Media & Resources
+## 7. Event Images
 
-*   **Full Event Recording:** [Watch Live Video on YouTube](https://youtu.be/hz32VBrvW7M)
-*   **Presentation Slides:**
-    *   `OneTeam_CommunityDay.pptx` (Multi-Channel AI Ordering - KFC Bot Agent)
-    *   `Hackathon_Journey_3KA.pptx` (S.H.E.P.H.E.R.D Crowd Analytics System)
-    *   `SA_Professional_Native_App.pptx` (Solution Architect Professional AI Native App)
-    *   `SignalScout.pptx` (Signal Scout Corporate Intelligence Platform)
+Some impressive photos recorded during the event at AWS Vietnam:
+
+![AWS Agentic AI Build Week](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)
