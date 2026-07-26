@@ -39,7 +39,7 @@ Trong suốt buổi sáng, các anh chị nhóm thi đã lần lượt đứng t
     *   Nhờ tận dụng **Amazon Bedrock AgentCore**, các anh chị đã tiết kiệm tới **60% mã nguồn hạ tầng** (infra code).
     *   Ngồi bên dưới theo dõi màn Live Demo của các anh chị khi gửi tin nhắn đặt món trực tiếp trên Zalo OA, mình thật sự ấn tượng khi thấy AI phản hồi và xử lý giỏ hàng cực nhanh, độ trễ chỉ mất từ **3 - 5 giây**.
     *   Mô hình chi phí các anh chị tính toán cũng rất tối ưu: Chỉ khoảng **$0.006 / đơn hàng**; tổng chi phí hạ tầng tầm **$88 / tháng** (trong đó Bedrock chiếm 75%).
-    *   **Thành tích:** Phần trình bày xuất sắc và thực tế đã giúp các anh chị giành giải Nhất (First Place) cuộc thi AABW Hackathon trong tiếng vỗ tay thán phục của toàn bộ hội trường!
+    *   **Thành tích:** Phần trình bày xuất sắc và thực tế đã giúp các anh chị giành giải Nhất (First Place) cuộc thi AABW Hackathon
 
 ### 3.2. Team 3KA - Hành trình Hackathon 24h & Dự án S.H.E.P.H.E.R.D
 
