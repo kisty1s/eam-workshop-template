@@ -12,8 +12,7 @@ pre: " <b> 4.4. </b> "
 | --- | --- |
 | Thời gian | Chủ Nhật, ngày 26/07/2026 |
 | Địa điểm | Văn phòng AWS Việt Nam, Tầng 26, Tòa nhà Bitexco Financial Tower |
-| Hình thức tham gia | Tham gia trực tiếp & Livestream trên kênh YouTube |
-| Video Live | [Xem lại Video Live tại đây](https://youtu.be/hz32VBrvW7M) |
+| Hình thức tham gia | Tham gia trực tiếp |
 | Vai trò | Người tham dự |
 | Chủ đề chính | Agentic AI Systems, Amazon Bedrock AgentCore, Multi-Channel Conversational Ordering, Computer Vision & Crowd Analytics, Automated Cloud Architecture, Corporate Signal Intelligence |
 | Các dự án báo cáo | **OneTeam** (KFC Bot Agent), **Team 3KA** (Project S.H.E.P.H.E.R.D), **Team Plan V** (SA Professional AI Native App), **Team Signal Scout** (Signal Scout Platform) |

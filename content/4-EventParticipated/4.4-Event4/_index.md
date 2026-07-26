@@ -12,8 +12,7 @@ pre: " <b> 4.4. </b> "
 | --- | --- |
 | Date | Sunday, July 26, 2026 |
 | Location | AWS Vietnam Office, 26th Floor, Bitexco Financial Tower |
-| Participation format | On-site participation & YouTube Livestream |
-| Live Video | [Watch Live Video on YouTube](https://youtu.be/hz32VBrvW7M) |
+| Participation format | On-site participation |
 | Role | Attendee |
 | Main topics | Agentic AI Systems, Amazon Bedrock AgentCore, Multi-Channel Conversational Ordering, Computer Vision & Crowd Analytics, Automated Cloud Architecture, Corporate Signal Intelligence |
 | Presenting Teams | **OneTeam** (KFC Bot Agent), **Team 3KA** (Project S.H.E.P.H.E.R.D), **Team Plan V** (SA Professional AI Native App), **Team Signal Scout** (Signal Scout Platform) |
