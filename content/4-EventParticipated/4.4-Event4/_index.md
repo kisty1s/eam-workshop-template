@@ -21,7 +21,7 @@ pre: " <b> 4.4. </b> "
 
 The **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** (July 2026 edition) was an exceptionally inspiring and practical sharing session. At this event, I had the valuable opportunity to sit directly in the audience at the AWS Vietnam office, listening to senior student engineers and builders who had just completed the **Agentic AI Build Week (AABW) Hackathon** take the stage to present their architectures, share battle-tested experiences, and demonstrate their Agentic AI solutions live.
 
-Throughout the afternoon, the team members stepped up onto the stage to pitch their cloud system architectures (Architecture Pitch), recount their intense 24-hour build journeys, and perform live on-site demonstrations right before our eyes. Watching them showcase how to leverage **Amazon Bedrock AgentCore**, **SageMaker**, **YOLO**, **Langfuse**, and AWS Cloud-Native services provided me with real-world lessons that go far beyond standard classroom theory.
+Throughout the morning, the team members stepped up onto the stage to pitch their cloud system architectures (Architecture Pitch), recount their intense 24-hour build journeys, and perform live on-site demonstrations right before our eyes. Watching them showcase how to leverage **Amazon Bedrock AgentCore**, **SageMaker**, **YOLO**, **Langfuse**, and AWS Cloud-Native services provided me with real-world lessons that go far beyond standard classroom theory.
 
 ## 3. Key Presenting Projects
 
@@ -78,7 +78,7 @@ Throughout the afternoon, the team members stepped up onto the stage to pitch th
 
 ## 4. Key Takeaways
 
-Spending the afternoon listening to the presenting teams share their real-world build experiences provided me with valuable takeaways:
+Spending the morning listening to the presenting teams share their real-world build experiences provided me with valuable takeaways:
 *   **AWS Support for Agentic AI:** Listening to their explanations helped me better understand how **Amazon Bedrock AgentCore** simplifies memory management (Short-Term Memory), runtime environments, and tool integrations, saving up to 60% of infrastructure effort.
 *   **System Problem Solving Mindset:** A successful production AI agent goes beyond generating nice chat replies; it must follow a structured flow of planning, querying trusted data, executing tool calls, and verifying accuracy before concluding actions.
 *   **FinOps & Practical Cost Management:** Learning from their cost calculations ($88/mo or $81-$94/mo), I realized that designing enterprise AI systems requires optimizing token usage and selecting suitable Serverless services.

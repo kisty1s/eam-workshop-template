@@ -21,7 +21,7 @@ pre: " <b> 4.4. </b> "
 
 Sự kiện **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** (số tháng 07/2026) là một buổi chia sẻ vô cùng đặc biệt và giàu cảm hứng. Tại đây, mình có cơ hội trực tiếp ngồi dưới hội trường văn phòng AWS Việt Nam để lắng nghe các anh chị vừa hoàn thành cuộc thi **Agentic AI Build Week (AABW) Hackathon** lên sân khấu báo cáo, thuyết trình và chia sẻ lại toàn bộ hành trình làm sản phẩm thực chiến của mình.
 
-Trong suốt buổi chiều, các anh chị nhóm thi đã lần lượt đứng trên sân khấu để trình bày kiến trúc hệ thống (Architecture Pitch), chia sẻ những kinh nghiệm xương máu sau 24 giờ làm việc liên tục và thực hiện các màn Live Demo trực tiếp ngay trước mắt người nghe. Được trực tiếp theo dõi các anh chị trình diễn cách ứng dụng **Amazon Bedrock AgentCore**, **SageMaker**, **YOLO**, **Langfuse** cùng các dịch vụ AWS Cloud-Native giúp mình học hỏi được rất nhiều bài học thực tế mà sách vở hay lý thuyết thông thường khó có được.
+Trong suốt buổi sáng, các anh chị nhóm thi đã lần lượt đứng trên sân khấu để trình bày kiến trúc hệ thống (Architecture Pitch), chia sẻ những kinh nghiệm xương máu sau 24 giờ làm việc liên tục và thực hiện các màn Live Demo trực tiếp ngay trước mắt người nghe. Được trực tiếp theo dõi các anh chị trình diễn cách ứng dụng **Amazon Bedrock AgentCore**, **SageMaker**, **YOLO**, **Langfuse** cùng các dịch vụ AWS Cloud-Native giúp mình học hỏi được rất nhiều bài học thực tế mà sách vở hay lý thuyết thông thường khó có được.
 
 ## 3. Nội dung chính các dự án báo cáo
 
@@ -78,7 +78,7 @@ Trong suốt buổi chiều, các anh chị nhóm thi đã lần lượt đứng
 
 ## 4. Kiến thức & Bài học rút ra
 
-Một buổi chiều ngồi nghe các anh chị chia sẻ kinh nghiệm thực chiến giúp mình thu hoạch được rất nhiều bài học đắt giá:
+Một buổi sáng ngồi nghe các anh chị chia sẻ kinh nghiệm thực chiến giúp mình thu hoạch được rất nhiều bài học đắt giá:
 *   **Sự hỗ trợ mạnh mẽ của AWS cho AI Agent:** Qua phần trình bày của các anh chị, mình hiểu rõ hơn vai trò của **Amazon Bedrock AgentCore** trong việc quản lý bộ nhớ (Short-Term Memory), môi trường chạy (Runtime) và kết nối công cụ, giúp kỹ sư giải phóng 60% thời gian dựng hạ tầng để tập trung làm tốt phần logic nghiệp vụ.
 *   **Tư duy giải quyết bài toán hệ thống:** Một sản phẩm AI thành công không chỉ là trả lời tin nhắn hay, mà phải có quy trình lập kế hoạch, truy vấn dữ liệu tin cậy, thực thi Tool Calling và có bước kiểm tra (Verify) tính đúng đắn trước khi chốt hành động.
 *   **Bài toán chi phí thực tế (FinOps):** Học từ cách các anh chị tính toán chi phí ($88/tháng hay $81-$94/tháng), mình nhận ra khi thiết kế hệ thống AI cho doanh nghiệp thì việc tối ưu lượng token và lựa chọn dịch vụ Serverless phù hợp là yếu tố sống còn.
@@ -94,7 +94,7 @@ Những kiến trúc và bài học mà các anh chị chia sẻ trên sân kh�
 
 ## 6. Kết luận
 
-Buổi chiều tham dự **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** tại văn phòng AWS Việt Nam là một trải nghiệm thực tế vô cùng tuyệt vời. Được trực tiếp ngồi nghe các anh chị đi trước chia sẻ lại những bài học xương máu, xem các anh chị Demo sản phẩm và giải trình kiến trúc đã giúp mình mở rộng góc nhìn rất nhiều. Những kiến thức và cảm hứng từ sự kiện chắc chắn sẽ là hành trang quý giá giúp mình áp dụng vào việc học tập cũng như hoàn thiện dự án thực tập EAM Workspace một cách tốt nhất.
+Buổi sáng tham dự **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** tại văn phòng AWS Việt Nam là một trải nghiệm thực tế vô cùng tuyệt vời. Được trực tiếp ngồi nghe các anh chị đi trước chia sẻ lại những bài học xương máu, xem các anh chị Demo sản phẩm và giải trình kiến trúc đã giúp mình mở rộng góc nhìn rất nhiều. Những kiến thức và cảm hứng từ sự kiện chắc chắn sẽ là hành trang quý giá giúp mình áp dụng vào việc học tập cũng như hoàn thiện dự án thực tập EAM Workspace một cách tốt nhất.
 
 ## 7. Hình ảnh sự kiện
 
