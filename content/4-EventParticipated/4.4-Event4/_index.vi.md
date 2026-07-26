@@ -98,6 +98,12 @@ Buổi sáng tham dự **FCAJ Community Day - Agentic AI Showcase & Hackathon De
 
 ## 7. Hình ảnh sự kiện
 
-Một số hình ảnh ấn tượng được ghi lại trong quá trình tham gia buổi Study Tour tại AWS Việt Nam:
+Một số hình ảnh ấn tượng được ghi lại trong quá trình tham gia sự kiện tại AWS Việt Nam:
 
-![AWS Agentic AI Build Week](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-1.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-2.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-3.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)

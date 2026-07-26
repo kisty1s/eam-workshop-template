@@ -100,4 +100,10 @@ Attending the **FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day** 
 
 Some impressive photos recorded during the event at AWS Vietnam:
 
-![AWS Agentic AI Build Week](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-1.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-2.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-3.png)
+
+![FCAJ Community Day - Agentic AI Showcase](/images/4-EventParticipated/4.4-Event4/fcaj-community-day-4.jpg)
