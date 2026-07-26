@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Các sự kiện đã tham gia"
 date: 2026-06-25
 weight: 4
@@ -34,7 +34,6 @@ Trong quá trình thực tập, mình đã tham gia các sự kiện chuyên mô
 
 ### [Event 3 - AWS & Swinburne Vietnam Cloud Computing Study Tour](4.3-Event3/)
 
-
 &emsp;**Thời gian:** Ngày 04/07/2026
 
 &emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco Financial Tower, kết hợp livestream
@@ -42,3 +41,16 @@ Trong quá trình thực tập, mình đã tham gia các sự kiện chuyên mô
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 &emsp;**Nội dung chính:** Cloud Computing, thị trường việc làm cloud, kỹ năng nghề nghiệp, data engineering, AI, giao tiếp, networking và tư duy phát triển.
+
+---
+
+### [Event 4 - FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day](4.4-Event4/)
+
+&emsp;**Thời gian:** Ngày 26/07/2026
+
+&emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco Financial Tower, kết hợp livestream
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
+
+&emsp;**Nội dung chính:** Agentic AI Systems, Amazon Bedrock AgentCore, Multi-Channel Conversational Ordering (KFC Bot), Computer Vision & Crowd Analytics (S.H.E.P.H.E.R.D), Automated Cloud Architecture (SA AI App), Corporate Signal Intelligence (Signal Scout).
+

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Events Participated"
 date: 2026-06-25
 weight: 4
@@ -41,3 +41,16 @@ During the internship period, I participated in professional events related to A
 &emsp;**Role:** Attendee
 
 &emsp;**Main content:** Cloud Computing, cloud job market, career skills, data engineering, AI, communication, networking, and growth mindset.
+
+---
+
+### [Event 4 - FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day](4.4-Event4/)
+
+&emsp;**Date:** July 26, 2026
+
+&emsp;**Location:** 26th floor, Bitexco Financial Tower, with livestream
+
+&emsp;**Role:** Attendee
+
+&emsp;**Main content:** Agentic AI Systems, Amazon Bedrock AgentCore, Multi-Channel Conversational Ordering (KFC Bot), Computer Vision & Crowd Analytics (S.H.E.P.H.E.R.D), Automated Cloud Architecture (SA AI App), Corporate Signal Intelligence (Signal Scout).
+
