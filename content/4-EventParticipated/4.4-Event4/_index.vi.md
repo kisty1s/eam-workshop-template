@@ -1,6 +1,6 @@
 ---
 title: "Event 4: FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day"
-date: 2026-07-26
+date: 2026-07-20
 weight: 4
 chapter: false
 pre: " <b> 4.4. </b> "
