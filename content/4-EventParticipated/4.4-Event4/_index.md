@@ -10,7 +10,7 @@ pre: " <b> 4.4. </b> "
 
 | Item | Details |
 | --- | --- |
-| Date | Sunday, July 26, 2026 |
+| Date | Saturday, July 25, 2026 |
 | Location | AWS Vietnam Office, 26th Floor, Bitexco Financial Tower |
 | Participation format | On-site participation |
 | Role | Attendee |

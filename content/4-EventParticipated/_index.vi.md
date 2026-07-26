@@ -46,7 +46,7 @@ Trong quá trình thực tập, mình đã tham gia các sự kiện chuyên mô
 
 ### [Event 4 - FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day](4.4-Event4/)
 
-&emsp;**Thời gian:** Ngày 26/07/2026
+&emsp;**Thời gian:** Ngày 25/07/2026
 
 &emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco Financial Tower, kết hợp livestream
 

@@ -10,7 +10,7 @@ pre: " <b> 4.4. </b> "
 
 | Nội dung | Chi tiết |
 | --- | --- |
-| Thời gian | Chủ Nhật, ngày 26/07/2026 |
+| Thời gian | Thứ Bảy, ngày 25/07/2026 |
 | Địa điểm | Văn phòng AWS Việt Nam, Tầng 26, Tòa nhà Bitexco Financial Tower |
 | Hình thức tham gia | Tham gia trực tiếp tại sự kiện |
 | Vai trò | Người tham dự |

@@ -46,7 +46,7 @@ During the internship period, I participated in professional events related to A
 
 ### [Event 4 - FCAJ Community Day - Agentic AI Showcase & Hackathon Demo Day](4.4-Event4/)
 
-&emsp;**Date:** July 26, 2026
+&emsp;**Date:** July 25, 2026
 
 &emsp;**Location:** 26th floor, Bitexco Financial Tower, with livestream
 
